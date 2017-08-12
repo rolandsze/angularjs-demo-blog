@@ -1,0 +1,19 @@
+{
+    "name": "angularjs-demo-blog",
+    "version": "1.0.0",
+    "description": "Blog written in AngularJS, HTML and Less.",
+    "main": "index.html",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/rolandsze/angularjs-demo-blog.git"
+    },
+    "author": "Roland Szecsenyi",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/rolandsze/angularjs-demo-blog/issues"
+    },
+    "homepage": "https://github.com/rolandsze/angularjs-demo-blog#readme"
+}

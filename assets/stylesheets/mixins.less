@@ -1,0 +1,43 @@
+/**
+ * Transition
+ */
+.transition(@duration: 150ms; @effect: linear; @property: all;) {
+    -webkit-transition: @property @effect @duration;
+    -moz-transition: @property @effect @duration;
+    -ms-transition: @property @effect @duration;
+    -o-transition: @property @effect @duration;
+    transition: @property @effect @duration;
+}
+
+/**
+ * Multiple transitions
+ */
+.multiple-transitions(@property, @duration: 250ms, @effect: linear) {
+    -webkit-transition-property: @property;  
+    -webkit-transition-duration: @duration;
+    -webkit-transition-timing-function: @effect;
+
+    -moz-transition-property: @property;
+    -moz-transition-duration: @duration;
+    -moz-transition-timing-function: @effect;
+
+    -ms-transition-property: @property;  
+    -ms-transition-duration: @duration;
+    -ms-transition-timing-function: @effect;
+
+    -o-transition-property: @property;
+    -o-transition-duration: @duration;
+    -o-transition-timing-function: @effect;
+
+    transition-property: @property;  
+    transition-duration: @duration;
+    transition-timing-function: @effect;
+}
+
+/**
+ * Equally rounded borders
+ */
+.equally-rounded-borders(@radius) {
+    -webkit-border-radius: @radius;
+    border-radius: @radius;
+}

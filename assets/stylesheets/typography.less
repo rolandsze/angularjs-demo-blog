@@ -1,0 +1,139 @@
+.align-left { text-align: left; }
+.align-right { text-align: right; }
+.align-center { text-align: center; }
+.align-justify { text-align: justify; }
+
+.light { font-weight: 100; }
+.bold { font-weight: 500; }
+.ultra-bold {font-weight: 700; }
+
+p,
+ul,
+ol,
+dl,
+blockquote,
+pre {
+    margin: 0 0 1.75em 0;
+}
+
+ul,
+ol {
+    list-style-position: inside;
+    &.pulled {
+        margin-left: 2*@base-margin;
+    }
+}
+
+ul.square {
+    list-style: square;
+}
+
+h1 {
+    font-size:  4rem; //64px
+    line-height: 0.875;
+    margin: 0 0 .4375em 0;
+
+    &.leading {
+        margin-bottom: .875em;
+    }
+}
+
+h2 {
+    font-size:  2.4375rem; //39px
+    line-height: 1.4358;
+    margin: 0 0 .7179em 0;
+}
+
+h3 {
+    font-size:  1.5rem; //24px
+    line-height:  1.1667;
+    margin: 0 0  1.1667em 0;
+}
+
+h4 {
+    font-size:  1rem; //16px
+    line-height: 1.75;
+    margin: 0 0 1.75em 0;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: @heading-font-family;
+    font-weight: @heading-font-weight;
+    color: darken(@base-font-color, 10%);
+
+    a {
+        color: darken(@base-font-color, 10%);
+        border: none;
+    }
+
+    &.upper {
+        text-transform: uppercase;
+    }
+}
+
+hr {
+    border-top: 1px solid @hr-line-color;
+    margin: @base-margin 0;
+
+    &.dotted {
+        border-style: dotted;
+    }
+
+    &.dashed {
+        border-style: dashed;
+    }
+}
+
+p code,
+samp,
+kbd {
+    padding: 2px 4px;
+}
+
+mark {
+    background-color: @mark-background-color;
+}
+
+p code,
+samp,
+kbd {
+    font-family: Consolas, Monaco, monospace;
+}
+
+p code {
+    background-color: @code-background-color;
+    color: @code-font-color;
+}
+
+samp {
+    background-color: @samp-background-color;
+    color: @samp-font-color;    
+}
+
+kbd {
+    -webkit-box-shadow:inset 0 0 0 1px @kbd-border-color;
+    box-shadow:inset 0 0 0 1px @kbd-border-color;
+    color: @kbd-font-color;
+}
+
+blockquote {
+    border-left: 4px solid @blockquote-border-color;
+    padding-left: @base-margin;
+    color: @blockquote-font-color;
+
+    cite {
+        font-style: normal;
+        color: @cite-font-color;
+
+        &:before {
+            content: '\2014 \00A0';
+        }
+    }
+}
+
+em {
+    color: @em-font-color;    
+}

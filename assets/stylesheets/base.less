@@ -1,0 +1,84 @@
+html,
+body {
+    height: auto;
+    min-height: 100%;
+    width: 100%;
+}
+
+html {
+    font-family: @base-font-family;
+    font-weight: @base-font-weight;
+    font-size: @base-font-size;
+    -webkit-font-smoothing: antialiased;
+}
+
+body {
+    line-height: @base-line-height;
+    background-color: @background-color;
+    color: @base-font-color;
+}
+
+*::-moz-selection {
+    background: @selection-color;
+}
+
+article a,
+footer a {
+    color: @link-color;
+    border-bottom: 1px solid @link-border-color;
+
+    &:hover {
+        color: @link-hover-color;
+        border-bottom: 2px solid @link-hover-color;
+    }
+}
+
+#notfound-icon {
+    font-size: 11.125rem;
+    line-height: normal;
+}
+
+#wrapper,
+footer {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+    height: auto;
+}
+
+#wrapper {
+    padding: @base-margin 0;
+}
+
+footer {
+    position: relative;
+    text-align: center;
+    color: @footer-font-color;
+
+    p {
+        font-size: .875rem;
+        line-height: 2;
+        margin: 0;
+        padding: 2em 0;
+        border-top: 1px dotted @footer-top-border-color;
+    }
+}
+
+#up-button {
+    cursor: pointer;
+    position: absolute;
+    right: 0px;
+    top: 10px;
+    width: 20px;
+    height: 20px;
+    padding: 10px;
+    background-color: @footer-up-button-background-color;
+    color: @footer-up-button-font-color;
+    line-height: 1;
+
+    &:hover {
+        background-color: @footer-up-button-background-hover-color;
+        color: @footer-up-button-font-hover-color;        
+    }
+}

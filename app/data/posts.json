@@ -1,0 +1,60 @@
+[
+  {
+      "permalink": "css-basics-ii",
+      "date": "2015-08-16",
+      "tags": [
+          "webdev",
+          "css"
+      ],
+      "title": "CSS Basics #2",
+      "intro": "<p>Next up, we dive into CSS syntax in a lot more detail, looking at how properties and their values form into declarations, multiple <i>declarations</i> form into declaration blocks, and declaration blocks and selectors form into complete CSS rules. We round off the article by looking at other CSS syntax features such as comments and whitespace.</p>",
+      "more": "<p>A property paired with a value is called a <i>CSS declaration</i>. CSS declarations are put within CSS Declaration Blocks. And finally, CSS declaration blocks are paired with selectors to produce <b>CSS Rulesets</b> (or CSS Rules).</p>",
+      "extended": false
+  },
+    {
+        "permalink": "css-basics",
+        "date": "2015-08-14",
+        "tags": [
+            "webdev",
+            "css"
+        ],
+        "title": "CSS Basics #1",
+        "intro": "<p>CSS is used to style and lay out web pages — for example, to alter the font, colour, size and spacing of your content, split it into multiple columns, or add animations and other decorative features. This module gets you started on the path to CSS mastery with the basics of how it works, including selectors and properties, writing CSS rules, applying CSS to HTML, how to specify length, colour, and other units in CSS, cascade and inheritance, and debugging CSS.</p>",
+        "more": "<p>CSS (Cascading Style Sheets) allows you to create great looking web pages, but how does it work under the hood? This article explains what CSS is, how the browser turns HTML into a Document Object Model (DOM), how CSS is applied to parts of the DOM, some very basic syntax examples, and what code is used to actually include our CSS in our web page.</p>",
+        "extended": false
+    },
+    {
+        "permalink": "starcraft-ii",
+        "date": "2015-07-12",
+        "tags": [
+            "games"
+        ],
+        "title": "StarCraft II",
+        "intro": "<p>StarCraft II continues the epic saga of the Protoss, Terran, and Zerg. These three distinct and powerful races clash once again in the fast-paced real-time strategy sequel to the legendary original, StarCraft.</p> <p>Featuring a unique single-player campaign that picks up where StarCraft: Brood War left off, <b>StarCraft II presents a cast of new heroes</b> and familiar faces in an edgy sci-fi story filled with adventure and intrigue.</p>",
+        "more": "",
+        "extended": false
+    },
+    {
+        "permalink": "subway-line-4",
+        "date": "2015-07-12",
+        "tags": [
+            "photography",
+            "budapest"
+        ],
+        "title": "Subway line 4",
+        "intro": "<p>Budapest is beautiful even at underground.</p>",
+        "more": "<p><img src='images/subway-photo.jpg' alt='Subway 4'></p>",
+        "extended": false
+    },
+    {
+        "permalink": "hello-world",
+        "date": "2015-04-27",
+        "tags": [
+            "hopeforthebest"
+        ],
+        "title": "Hello, world!",
+        "intro": "<p>My first post on the internet, it has been a long road. But here i am! It was fun creating my own blog engine in AngularJS. Hope you all like it.</p>",
+        "more": "",
+        "extended": false
+    }
+]

@@ -1,0 +1,15 @@
+<div ng-controller='blogPagination' class='clearfix' ng-show='(currentPage < numberOfPages) || ((numberOfPages !== 1) && (currentPage > 1))'>
+    <div id='pagination'>
+        <div ng-show='(numberOfPages !== 1) && (currentPage > 1)'>
+            <a class='button' href='{{urlForPreviousPage}}' title="{{currentPage-1}}. page" scroll-to='wrapper'>
+                Newer Posts <i class='fa-chevron-right'></i>
+            </a>
+        </div>
+
+        <div ng-show='(currentPage < numberOfPages)'>
+            <a class='button' href='{{urlForNextPage}}' title="{{currentPage+1}}. page" scroll-to='wrapper'>
+                <i class='fa-chevron-left'></i> Older posts
+            </a>
+        </div>
+    </div>
+</div>

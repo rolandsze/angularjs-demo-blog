@@ -1,0 +1,34 @@
+<div class='container' id='post-list'>
+    <article class='clearfix' ng-repeat='post in posts'>
+        <header>
+            <h1 class='entry-title'>
+                <a href='#/blog/post/{{post.date}}/{{post.permalink}}'>{{post.title}}</a>
+            </h1>
+
+            <ul class='post-details'>
+                <li class='fa-clock-o'></li>
+                <li>
+                    <a href='#/blog/filter/date/{{post.date}}' title='Posts on this day'>
+                        {{post.date}}
+                    </a>
+                </li>
+                <li class='fa-tags'></li>
+                <li ng-repeat='tag in post.tags' class='post-tag'>
+                    <a href='#/blog/filter/tag/{{tag}}' title='Posts with this label'>
+                        <tag>{{tag}}</tag>
+                    </a>
+                </li>
+            </ul>
+        </header>
+
+        <div ng-bind-html='post.intro'>
+        </div>
+
+        <a ng-show="post.extended !== false || post.more !== ''" class='read-more-button' href="#/blog/post/{{post.date}}/{{post.permalink}}" title='Read more...'>
+            Read more...
+        </a>
+    </article>
+
+    <ng-include src="pathToPaginationView">
+    </ng-include>
+</div>

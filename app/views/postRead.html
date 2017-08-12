@@ -1,0 +1,26 @@
+<article class='container'>
+    <header>
+        <h1>{{post.title}}</h1>
+        <ul class='post-details'>
+            <li class='fa-clock-o'></li>
+            <li>
+                <a href='#/blog/filter/date/{{post.date}}' title='Posts on this day'>
+                    {{post.date}}
+                </a>
+            </li>
+            <li class='fa-tags'></li>
+            <li ng-repeat='tag in post.tags' class='post-tag'>
+                <a href='#/blog/filter/tag/{{tag}}' title='Posts with this label'>
+                    <tag>{{tag}}</tag>
+                </a>
+            </li>
+        </ul>
+    </header>
+
+    <div ng-bind-html='post.intro'>
+    </div>
+
+    <div ng-show='post.more !== ""' ng-bind-html="post.more"></div>
+
+    <ng-include src="pathToExtendedPost" ng-if='post.extended == true'></ng-include>
+</article>

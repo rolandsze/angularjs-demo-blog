@@ -1,0 +1,151 @@
+/**
+ * Base
+ */
+//Background color
+@background-color: #fff;
+//Base font size in %
+@base-font-size: 100%;
+//Base line height, unitless
+@base-line-height: 1.75;
+//Base font family
+@base-font-family: 'Roboto', sans-serif;
+//Base font weight
+@base-font-weight: 400;
+//Base font color
+@base-font-color: #505A63;
+//Heading font family
+@heading-font-family: 'Roboto Condensed', sans-serif;
+//Heading font weight
+@heading-font-weight: 300;
+//Base margin
+@base-margin: unit(@base-line-height, em);
+//Container width
+@container-width: 740px;
+//Path to Font Awesome
+@path-to-font-awesome: '../font-awesome';
+//Path to emoticons sprite file
+@path-to-emoticons-sprite: '../images/phpbb3-emoticons.png';
+//Horizontal line color
+@hr-line-color: lighten(#bdc3c7, 10%);
+//Link color in articles
+@link-color: #2980b9;
+//Link hover color in articles
+@link-hover-color: #3498db;
+//Link border color
+@link-border-color: rgba(189, 195, 199, 0.5);
+//Selection color
+@selection-color: lighten(#bdc3c7, 10%);
+//Em font color
+@em-font-color: rgba(127, 140, 141,1.0);
+
+/**
+ * Header
+ */
+//Path to SVG logo
+@path-to-svg-logo: '../images/mgs.svg';
+
+/**
+ * Header menu
+ */
+//Link color
+@header-menu-link-color: rgba(44, 62, 80, 0.75);
+//Link active color
+@header-menu-link-active-color: #011233;
+
+/**
+ * Blog
+ */
+//Entry title hover color
+@blog-entry-title-hover-color: #2980b9;
+//Read more link color
+@blog-read-more-link-color: #95a5a6;
+//Read more link hover color
+@blog-read-more-link-hover-color: #3498db;
+//Tag background color
+@blog-tag-background-color: #ecf0f1;
+//Tag font color
+@blog-tag-font-color: #7f8c8d;
+//Tag hover background color
+@blog-tag-hover-background-color: rgba(189, 195, 199, 0.35);
+//Tag hover font color
+@blog-tag-hover-font-color: #7f8c8d;
+
+/**
+ * Inline elements
+ */
+//<mark>
+@mark-background-color: rgba(26, 188, 156, 0.5);
+//<code>
+@code-background-color: #EAEEF3;
+@code-font-color: #0048AB;
+//<samp>
+@samp-background-color: #ecf0f1;
+@samp-font-color: #7f8c8d;
+//<kbd>
+@kbd-border-color: #bdc3c7;
+@kbd-font-color: #7f8c8d;
+
+/**
+ * Blockquote
+ */
+//Font color
+@blockquote-font-color: rgba(127, 140, 141, 1.0);
+//Border color
+@blockquote-border-color: darken(#f9f9f9, 10%);
+//Cite font color
+@cite-font-color: rgba(127, 140, 141, 1.0);
+
+/**
+ * Button
+ */
+//Font color
+@button-font-color: rgba(44, 62, 80, 0.5);
+//Font hover color
+@button-font-hover-color: #2980b9;
+//Border color
+@button-border-color: rgba(44, 62, 80, 0.5);
+//Border hover color
+@button-border-hover-color: #2980b9;
+
+/**
+ * Footer
+ */
+//Font color
+@footer-font-color: #7f8c8d;
+//Up button font color
+@footer-up-button-font-color: rgba(0, 0, 0, 0.40);
+//Up button font hover color
+@footer-up-button-font-hover-color: #000;
+//Up button background color
+@footer-up-button-background-color: rgba(189, 195, 199, 0.25);
+//Up button background hover color
+@footer-up-button-background-hover-color: rgba(0, 0, 0, 0.15);
+//Top border color
+@footer-top-border-color: #bdc3c7;
+
+/**
+ * Syntax highlighter
+ */
+//Background color
+@syntax-highlighter-background-color: #EAEEF3;
+//darken(#F5F5F5, 1.5%)
+//Font color
+@syntax-highlighter-font-color: #00193A;
+
+/**
+ * Responsive
+ */
+//Extra small screen
+@responsive-breakpoint-extra-small: 480px;
+//Small screen
+@responsive-breakpoint-small: 568px;
+//Medium screen
+@responsive-breakpoint-medium: 792px;
+//Large screen
+@responsive-breakpoint-large: 1000px;
+//Extra small screen
+@responsive-breakpoint-extra-small-limit: (@responsive-breakpoint-small - 1);
+//Small screen limit
+@responsive-breakpoint-small-limit: (@responsive-breakpoint-medium - 1);
+//Medium screen limit
+@responsive-breakpoint-medium-limit: (@responsive-breakpoint-large - 1);

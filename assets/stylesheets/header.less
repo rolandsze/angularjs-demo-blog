@@ -1,0 +1,52 @@
+#top-header {
+    position: relative;
+    height: 252px;
+    text-align: center;
+
+    nav {
+        position: absolute;
+        bottom: 28px;
+        width: 100%;
+    }
+
+    li {
+        display: inline-block;
+        margin-right: @base-margin*2;
+
+        a {
+            text-transform: uppercase;
+            font-family: 'Roboto Condensed', sans-serif;
+            font-weight: 300;
+            font-size:  1.5rem; //24px
+            line-height:  1.1667;
+            color: @header-menu-link-color;
+        }
+
+        &.active a {
+            color: @header-menu-link-active-color;
+        }
+
+        &:last-of-type {
+            margin-right: 0;
+        }
+    }
+}
+
+#logo,
+#logo a {
+    width: 112px;
+    height: 112px;
+}
+
+#logo {
+    position: relative;
+    top: 28px;
+    margin: 0 auto;
+
+    a {
+        display: block;
+        background: url(@path-to-svg-logo);
+        background-size: 112px 112px;
+        background-repeat: no-repeat;
+    }
+}
