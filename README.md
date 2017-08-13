@@ -1,8 +1,10 @@
-**What is this?**
+What is this?
+-------------
 
 This is a fully working demo blog written in AngularJS, HTML and Less. It was mainly developed for personal use. However, it is free to use and open. Dummy data is included with some content over the internet and written by myself.
 
-**Features**
+Features
+-------------
 * Parse JSON data
 * Posts list
 * Single posts
@@ -14,3 +16,7 @@ This is a fully working demo blog written in AngularJS, HTML and Less. It was ma
 * Emoticon directive
 * 404 error page
 * Configurable
+
+Demo
+-------------
+[http://rolandsch.com/angularjs-blog/](http://rolandsch.com/angularjs-blog/)
