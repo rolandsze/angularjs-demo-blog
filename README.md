@@ -1,11 +1,12 @@
-What is this?
--------------
+About
+-
+[http://rolandsch.com/angularjs-blog/](http://rolandsch.com/angularjs-blog/)
 
-This is a fully working demo blog written in AngularJS, HTML and Less. It was mainly developed for personal use. However, it is free to use and open. Dummy data is included with some content over the internet and written by myself.
+A blog written in AngularJS, HTML and Less.
 
 Features
--------------
-* Parse JSON data
+--
+* Parse JSON data from file
 * Posts list
 * Single posts
 * Expanded posts
@@ -14,9 +15,6 @@ Features
 * Filters: by date, by labels
 * Pagination
 * Emoticon directive
+* Syntax highlighter
 * 404 error page
 * Configurable
-
-Demo
--------------
-[http://rolandsch.com/angularjs-blog/](http://rolandsch.com/angularjs-blog/)
